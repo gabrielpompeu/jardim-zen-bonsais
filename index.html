@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/ico.jpg" type="image/png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Young+Serif&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Jardim Zen Bonsais</title>
+</head>
+
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <img src="imagens/logo.jpg" alt="Logo da sua loja" class="logo">
+            <h1>Jardim Zen Bonsai</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item">
+                        <a href="#sobre-a-loja" class="nav-link">
+                            <i class="bi bi-house-heart-fill"></i>
+                            Sobre a loja
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#nosso-espaco" class="nav-link">
+                            <i class="bi bi-person-hearts"></i>
+                            Nossos Bonsais
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#produtos" class="nav-link">
+                            <i class="bi bi-bookmark-heart"></i>
+                            Produtos
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-right-heart"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <div id="carouselIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="3"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="imagens/bonsai-1.jpg" class="d-block w-100" alt="bonsai">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="imagens/bonsai-2.jpg" class="d-block w-100" alt="bonsai">
+            </div>
+            <div class="carousel-item active" data-bs-interval="3000">
+                <img src="imagens/bonsai-3.jpg" class="d-block w-100" alt="bonsai">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="imagens/bonsai-4.jpg" class="d-block w-100" alt="bonsai">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <section id="sobre-a-loja">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <img src="imagens/a-loja.jpg" alt="">
+                </div>
+                <div class="col-md-7">
+                    <h2>Sobre a loja</h2>
+                    <p>Localizada no coração de Jundiaí, a Jardim Zen Bonsais é uma boutique dedicada à arte do cultivo de bonsais, oferecendo uma ampla variedade de árvores meticulosamente cuidadas e acessórios relacionados. Fundada por Kesuke Miyagi em 1987, nossa loja é um refúgio para entusiastas e iniciantes, buscando inspiração e serenidade em meio à beleza natural dos bonsais. Com uma missão de inspirar a conexão com a natureza, nossa equipe experiente está comprometida em proporcionar uma experiência acolhedora e educativa, ajudando os clientes a explorar e aprender sobre o fascinante mundo do bonsai. Venha nos visitar em Av 9 de Julho, 1800 e deixe-se encantar pela magia dos bonsais na Jardim Zen Bonsais.</p>
+                    <h2>Sobre os Bonsais</h2>
+                    <p>Os bonsais são pequenas maravilhas da natureza que oferecem uma série de benefícios terapêuticos e mentais. Cultivar e cuidar dessas árvores em miniatura promove a calma, concentração e paciência. Além de embelezar nossos espaços, os bonsais nos conectam com a natureza, nos lembrando da importância do tempo e dedicação em nossas vidas. Aqui na Jardim Zen Bonsais você vai encontrar os seguintes bonsais:</p>
+                    <ul>
+                        <li>Frutíferas</li>
+                        <li>Floriferas</li>
+                        <li>Coníferas</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="nosso-espaco">
+        <div class="container">
+            <div class="row">
+                <h2>Bonsais</h2>
+                <div class="col-md-4">
+                    <img src="/imagens/frutifera.jpg" alt="bonsai frutifera">
+                    <h3 class="pt-3">Frutíferas</h3>
+                    <p>Uma planta frutífera é aquela que produz frutos. Essas plantas são cultivadas por suas frutas comestíveis ou decorativas. Exemplos comuns incluem árvores frutíferas como maçãs, laranjas, etc.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="/imagens/florifera.jpg" alt="bonsai florifera">
+                    <h3 class="pt-3">Floríferas</h3>
+                    <p>Uma planta florífera é aquela que produz flores. Isso pode incluir uma ampla variedade de plantas, desde pequenas flores ornamentais até grandes arbustos ou árvores que produzem flores vistosas.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="/imagens/conifera.jpg" alt="bonsai de conifera">
+                    <h3 class="pt-3">Coníferas</h3>
+                    <p>Uma planta conífera é um tipo de planta que produz cones. Essas plantas são geralmente árvores ou arbustos que têm folhas em forma de agulha ou escama e produzem sementes dentro de cones. Exemplos de coníferas incluem pinheiros, abetos, ciprestes e cedros.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="produtos">
+        <div class="container">
+            <div class="row">
+                <h2>Nossos Produtos</h2>
+            </div>
+            <div class="row">
+                <aside class="col-md-2">
+                    <nav class="nav nav-pills flex-column" role="tablist">
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#frutiferas" class="nav-link active"
+                            aria-selected="true" role="tab">
+                            Frutíferas
+                        </button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#floriferas" class="nav-link"
+                            aria-selected="false" role="tab" tabindex="-1">
+                            Floríferas
+                        </button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#coniferas" class="nav-link"
+                            aria-selected="false" role="tab" tabindex="-1">
+                            Coníferas
+                        </button>
+                    </nav>
+                </aside>
+                <div class="col-md-10">
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="frutiferas" role="tabpanel">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="/imagens/frutiferas/pitanga.jpg" alt="bonsai pitangueira">
+                                    <h3>Bonsai Pitanga 26 anos</h3>
+                                    <p>Para saber o preço entre em contato</p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="/imagens/frutiferas/pyt.jpg" alt="Bonsai Pyracantha">
+                                    <h3>Bonsai Pyracantha 26 anos</h3>
+                                    <p>Para saber o preço entre em contato
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="/imagens/frutiferas/mini-maça.jpg" alt="bonsai mini macieira">
+                                    <h3>Bonsai Mini Maçã 16 anos</h3>
+                                    <p>Para saber o preço entre em contato
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="/imagens/frutiferas/caqui.jpg" alt="Bonsai Mini Caqui">
+                                    <h3>Bonsai Mini Caqui 12 anos</h3>
+                                    <p>Para saber o preço entre em contato
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="/imagens/frutiferas/amora.jpg" alt="Bonsai Amora">
+                                    <h3>Bonsai Amora 07 anos</h3>
+                                    <p>Para saber o preço entre em contato
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="/imagens/frutiferas/goiaba.jpg" alt="Bonsai Mini Goiaba">
+                                    <h3>Bonsai Mini Goiaba 06 anos</h3>
+                                    <p>Para saber o preço entre em contato
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-content">
+                        <div class="tab-pane" id="floriferas" role="tabpanel">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="/imagens/floriferas/bougainvillea.jpg" alt="Bonsai Bougainvillea">
+                                    <h3>Bonsai Bougainvillea 24 anos</h3>
+                                    <p>Para saber o preço entre em contato
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="/imagens/floriferas/caliandra.jpg" alt="Bonsai Caliandra Rosa">
+                                    <h3>Bonsai Caliandra Rosa 19 anos</h3>
+                                    <p>Para saber o preço entre em contato
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="/imagens/floriferas/caliandra2.jpg" alt="Bonsai Caliandra Rosa">
+                                    <h3>Bonsai Caliandra Rosa 16 anos</h3>
+                                    <p>Para saber o preço entre em contato
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="/imagens/floriferas/caliandra3.jpg" alt="Bonsai Caliandra Rosa">
+                                    <h3>Bonsai Caliandra Rosa 14 anos</h3>
+                                    <p>Para saber o preço entre em contato
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="/imagens/floriferas/loropetalum.jpg" alt="Bonsai Loropetalum Rubro">
+                                    <h3>Bonsai Loropetalum Rubro 10 anos</h3>
+                                    <p>Para saber o preço entre em contato
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="/imagens/floriferas/jasmin.jpg" alt="Bonsai Jasmin Anão">
+                                    <h3>Bonsai Jasmin Anão 06 anos</h3>
+                                    <p>Para saber o preço entre em contato
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-content">
+                        <div class="tab-pane" id="coniferas" role="tabpanel">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="/imagens/coniferas/gracillis.jpg" alt="Bonsai Nana Gracillis">
+                                    <h3>Bonsai Nana Gracillis 26 anos</h3>
+                                    <p>Para saber o preço entre em contato
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="/imagens/coniferas/pinheiro.jpg" alt="Bonsai Pinheiro Negro">
+                                    <h3>Bonsai Pinheiro Negro 23 anos</h3>
+                                    <p>Para saber o preço entre em contato
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="/imagens/coniferas/shimpaku.jpg" alt="Bonsai Shimpaku">
+                                    <h3>Bonsai Shimpaku 32 anos</h3>
+                                    <p>Para saber o preço entre em contato
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="/imagens/coniferas/shimpaku -itoigawa.jpg" alt="Bonsai Shimpaku Itoigawa">
+                                    <h3>Bonsai Shimpaku Itoigawa 16 anos</h3>
+                                    <p>Para saber o preço entre em contato
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="/imagens/coniferas/procumbens.jpg" alt="Bonsai Procumbens">
+                                    <h3>Bonsai Procumbens 04 anos</h3>
+                                    <p>Para saber o preço entre em contato
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="fale-conosco" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center">Fale conosco</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-7 mb-5">
+                    <form id="formContato">
+                        <div class="mb-3">
+                            <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                            <input type="text" id="nome" class="form-control" placeholder="Nome Sobrenome" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                            <input type="email" id="email" class="form-control" placeholder="exemplo@mail.com" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="telefone" class="form-label fw-bold text-colored">Seu
+                                telefone(opcional)</label>
+                            <input type="tel" id="telefone" class="form-control" placeholder="(00)00000-0000">
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                            <textarea class="form-control" id="mensagem" required></textarea>
+                        </div>
+                        <button type="submit" class="btn fw-bold">Enviar</button>
+                    </form>
+                </div>
+                <div class="col-md-5">
+                    <div class="row">
+                        <h3 class="section-title fs-4">
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            Redes sociais
+                        </h3>
+                        <ul class="social-links">
+                            <li class="fs-5">
+                                <a href="#">
+                                    <i class="bi bi-facebook text-colored"></i>
+                                </a>
+                            </li>
+                            <li class="fs-5 ms-1 me-1">
+                                <a href="#">
+                                    <i class="bi bi-instagram text-colored"></i>
+                                </a>
+                            </li>
+                            <li class="fs-5">
+                                <a href="#">
+                                    <i class="bi bi-whatsapp text-colored"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row mt-4">
+                        <h3 class="section-title fs-4 text-colored">
+                            <i class="bi bi-cursor-fill"></i>
+                            Endereço
+                        </h3>
+                        <p>Av 9 de Julho, 1800 - Centro - Jundiaí - SP</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Gabriel Pompeu. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

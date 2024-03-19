@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+#produto img,
+#sobre-a-loja img,
+#produtos img,
+#nosso-espaco img {
+    border-radius: 2%;
+}
+
+header {
+    background-color: #ffffff;
+    color: #26421c;
+    font-family: 'Young Serif', serif;
+}
+
+.logo {
+    max-width: 200px;
+    height: auto;
+}
+
+.nav-link {
+    color: #26421c;
+}
+
+.nav-link:hover {
+    background-color: #26421c;
+    color: #ffffff;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+#sobre-a-loja {
+    padding: 50px;
+    background-color: #26421c59;
+}
+
+#sobre-a-loja img,
+#nosso-espaco img {
+    width: 100%;
+}
+
+#sobre-a-loja h2 {
+    font-family: 'Young Serif', serif;
+    font-size: 1.6em;
+}
+
+#nosso-espaco {
+    text-align: center;
+}
+
+#nosso-espaco h2,
+#produtos h2,
+#fale-conosco h2 {
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    font-family: 'Young Serif', serif;
+    font-size: 2em;
+}
+
+#produtos {
+    text-align: center;
+    background-color: #26421c59;
+}
+
+#produtos img {
+    width: 250px;
+    height: 250px;
+    margin-top: 10px;
+}
+
+button.nav-link {
+    margin: 3px;
+    background-color: white;
+    color: #26421c;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #26421c;
+}
+
+#nosso-espaco h3,
+#produtos h3 {
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Young Serif', serif;
+    font-size: 1.3em;
+    color: #26421c;
+}
+
+#fale-conosco form {
+    color: #26421c;
+    padding-right: 10px;
+}
+
+#fale-conosco button {
+    background-color: #26421c;
+    color: white;
+}
+
+.section-title {
+    text-align: start;
+    color: #26421c;
+}
+
+.social-links li {
+    display: inline;
+    list-style: none;
+}
+
+.social-links a {
+    color: #26421c;
+    text-decoration: none;
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    background-color: #26421c;
+}
+
+#sobre-a-loja,
+#nosso-espaco,
+#produtos,
+#fale-conosco {
+    padding-top: 80px;
+}
